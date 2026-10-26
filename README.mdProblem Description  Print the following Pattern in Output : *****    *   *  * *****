@@ -1,0 +1,43 @@
+
+import java.lang.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // YOUR CODE GOES HERE
+        // Please take input and print output to standard input/output (stdin/stdout)
+        // DO NOT USE ARGUMENTS FOR INPUTS
+        // E.g. 'Scanner' for input & 'System.out' for output
+        for (int i=5;i>0;i--)
+        {
+            if(i==5||i==1)
+            {
+                for(int j=0;j<5;j++)
+                {
+                    System.out.print("*");
+                }
+            }
+            else
+            {
+                for(int j=0;j<i;j++)
+                {
+                    if(j==i-1)
+                    {
+                        System.out.print("*");
+                    }
+                    else
+                    {
+                        System.out.print(" ");
+                    }
+                }
+              
+            }
+              System.out.println();
+        }
+        
+    }
+}
+
+
+
+
